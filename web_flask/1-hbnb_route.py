@@ -22,7 +22,7 @@ def hello_world():
 
 @app.route("/hbnb", strict_slashes=False)
 def home():
-    return "Hello HBNB"
+    return "HBNB"
 
 
 if __name__ == "__main__":
