@@ -42,7 +42,7 @@ def loving_py(text="is cool"):
 
 @app.route("/number/<int:n>", strict_slashes=False)
 def num_route(n):
-    return "{} is number".format(n)
+    return "{} is a number".format(n)
 
 
 if __name__ == "__main__":
